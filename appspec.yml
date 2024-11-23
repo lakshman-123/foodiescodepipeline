@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /foodies.war
-    destination: /home/ec2-user/apache-tomcat-9.0.70/webapps/
+  - source: /target/foodies.war
+    destination: /home/ec2-user/apache-tomcat-9.0.97/webapps/
 
 hooks:
   AfterInstall:
