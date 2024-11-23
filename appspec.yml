@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/foodies.war
+  - source: /foodies.war
     destination: /home/ec2-user/apache-tomcat-9.0.97/webapps/
 
 hooks:
