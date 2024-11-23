@@ -2,9 +2,9 @@ version: 0.2
 phases:
   install:    
     commands:
-      - yum update -y
-      - yum install -y openjdk-11-jdk
-      - yum install -y maven
+      - apt update -y
+      - apt install -y openjdk-11-jdk
+      - apt install -y maven
   build:
     commands:
       - echo Build started on `date`
